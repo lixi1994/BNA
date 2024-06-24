@@ -73,7 +73,6 @@ def setup_seed(seed):
     torch.backends.cudnn.deterministic = True
 
 def BN_bound_divergence_layer_by_layer():
-    BATCH_SIZE = 1350
     BS = 32
     Epoch = 10
     # lr = 0.001
